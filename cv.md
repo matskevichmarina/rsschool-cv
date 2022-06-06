@@ -18,11 +18,11 @@ Student in RS School. I like learning new things, such as software engineering a
 
 ## Skills
 
-* HTML | Beginner
-* CSS/SCSS | Beginner
-* JavaScript | Beginner
-* Avocode | Beginner
-* Visual Studio Code | Beginner
+* HTML - Beginner
+* CSS/SCSS - Beginner
+* JavaScript - Beginner
+* Avocode - Beginner
+* Visual Studio Code - Beginner
 
 ---
 
