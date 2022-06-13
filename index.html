@@ -1,38 +1,84 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./style.css" rel="stylesheet">
-  <title>CV#2. HTML, CSS &amp; Git Basics</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <title>cv</title>
 </head>
 <body>
-  <h1>Marina Maskevich</h1>
-  <h2>Contact Info</h2>
-    <ul>
-      <li>Phone: +49 152 05933087</li>
-      <li>Email: marina.matskevich@gmx.de</li>
-      <li>GitHub: <a href="https://github.com/matskevichmarina">matskevichmarina</a></li>
-      <li>Discord: Marina (@matskevichmarina)</li>
-    </ul>
-  <h2>Summary</h2>
-    <p>Student in RS School. I like learning new things, such as software engineering and coding. I try to improve myself every day, and it brings a lot of fun to me.</p>
-  <h2>Skills</h2>
-  <ol>
-    <li>HTML - Beginner</li>
-    <li>CSS/SCSS - Beginner</li>
-    <li>JavaScript - Beginner</li>
-    <li>Avocode - Beginner</li>
-    <li>Visual Studio Code - Beginner</li>
-  </ol>
-  <h2>Education</h2>
-    <p>Belarusian State University, Faculty of Physics, 2009-2014</p>
-  <h2>Languages</h2>
-    <ul>
-      <li>Russian - native</li>
-      <li>Belarusian - fluent</li>
-      <li>German - intermediate</li>
-      <li>English - pre-intermediate</li>
-    </ul>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section" id="profile">
+        <h1 class="section-title">Marina Matskevich</h1>
+        <img class="section-img" src="./assets/img/IMG_3566.jpg" width="120" alt="my photo">
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contact Info</h2>
+        <ul class="section-contacts">
+          <li><span> +49 152 05933087</span></li>
+          <li><a href="mailto:marina.matskevich@gmx.de" class="link"><span>marina.matskevich@gmx.de</span></a> </li>
+          <li><a href="https://github.com/matskevichmarina" class="link" target="_blank"><span>matskevichmarina</span></a></li>
+          <li><span> Marina (@matskevichmarina)</span></li>
+        </ul>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ol>
+          <li>HTML - Beginner</li>
+          <li>CSS/SCSS - Beginner</li>
+          <li>JavaScript - Beginner</li>
+          <li>Avocode - Beginner</li>
+          <li>Visual Studio Code - Beginner</li>
+        </ol>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li>Russian - native</li>
+          <li>Belarusian - fluent</li>
+          <li>German - intermediate</li>
+          <li>English - pre-intermediate</li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>Belarusian State University, Faculty of Physics, 2009-2014</p>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>Student in RS School. I like learning new things, such as software engineering and coding. I try to improve myself every day, and it brings a lot of fun to me.</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <a href="https://github.com/matskevichmarina" class="link" target="_blank">GitHub</a>
+      <p>&copy; 2022</p>
+      <a href="https://rs.school/js/" target="_blank">
+        <img src="./assets/svg/rs_school_js.svg" width="100" alt="rss-photo">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
